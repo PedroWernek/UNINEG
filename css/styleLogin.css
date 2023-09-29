@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+     background-image: url(../Img/photo-1513542789411-b6a5d4f31634.jfif); 
+     background-color: rgb(108, 108, 202); 
+    background-size: 1200px 920px;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+    
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+header {
+    /* image-resolution: 1920px 1020px; */
+    display: flex;
+    
+    justify-content: center;
+    
+}   
+
+.logo {
+    background: url(../Img/unineg.png);
+    background-size: cover;
+    height: 170px;
+    width: 500px;
+}
+
+.login input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2em;
+}
+
+.captcha {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.captcha input {
+    width: 40px;
+    height: 40px;
+ 
+}
+.submit {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 120px;
+}
+
+.input{
+    text-decoration: none;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    text-align:center;
+    height:55px;
+    width: 160px;
+    border-radius: 71px;
+    box-shadow: 10px 10px 10px black;
+    font-size: 1.1em;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5vh;
+}
+
+nav p {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 102px;
+    height: 10vh;
+    background-color: black;
+    background-size: cover;
+    height: 99px;
+}
+
+
+.footer {
+    background: url(../Img/cruseiro\ do\ norte.png);
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+}

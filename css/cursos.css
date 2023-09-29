@@ -1,0 +1,129 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    height: 100vh;
+} 
+
+nav {
+    /* display: flex; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    position:fixed;
+    width: 12vw;
+    min-width: 220px;
+}
+
+nav li{
+    list-style: none;
+    padding: 30px;
+    width: 12vw;
+    min-width: 12vw;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+nav li:hover {
+    list-style:inside; 
+    text-decoration: underline;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+main {
+    font-size: 1.6em;
+    margin-left: 200px;
+    height: 130vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.fundo {
+    width: 100%;
+    height: 25vh;
+    background: url(../Img/37888785-fa43-4243-ae48-2a9ca2f35ff0_atmosphaerisches-gamer-zimmer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fundo img{
+    width:220px;
+    height: 180px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 50px;
+    width: 70%;
+
+}
+
+.container-conteudo {
+    border: 1px solid rgb(78, 77, 77);
+    display: flex;
+    flex-direction: row;
+}
+
+.container-foto {
+    border: 1px solid black;
+    width:60%;
+    height: 200px;
+}
+
+
+.container-foto1 {
+    background: url(../Img/carro.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-foto2 {
+    background: url(../Img/trabalho.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+table {
+    margin-top: 20px;
+}
+
+td, th, tr {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr {
+    padding-top: 20px;
+}
+
+.cursos {
+    margin-top: 20px;
+}
