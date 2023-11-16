@@ -84,6 +84,12 @@ header {
     margin-top: 120px;
 }
 
+.submit a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .input{
     text-decoration: none;
     margin-top: 1px;
@@ -103,7 +109,9 @@ header {
     -o-border-radius: 7px;
 }
 
-
+#rgmDiv, #senhaDiv {
+    font-weight: 600;
+}
 
 nav {
     display: flex;
@@ -111,6 +119,7 @@ nav {
     align-items: center;
     flex-direction: column;
     height: 5vh;
+    margin-top: 20px;
 }
 
 nav p {
@@ -120,6 +129,78 @@ nav p {
     background-color: aliceblue;
     cursor: pointer;
 }
+
+#robo {
+    border: 5px solid black;
+    overflow-x: hidden;
+    position: absolute;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    left: 35%;
+    width: 30vw;
+    height: 60vh;
+    /* transform: translateX(100%); */
+    transition: transform 0.5s ease-in, background-color 0.5s ease-in;
+    background-color: whitesmoke;
+}
+
+.roboAtivado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(0%);
+    opacity: 1;
+    transition: transform 0.9s ease-out, opacity 0.9s ease-out, background-color 0.9s ease-out;
+    background-color: rgb(25, 202, 143);
+}
+
+#robo section {
+    text-align: start;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#robo section p{
+    border: 2px solid black;
+    padding: 10px;
+    width: 4%;
+    height: 4vh;
+    font-size: 1.7em;
+}
+
+#robo section p:hover{ 
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+#foto-robo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 15px;
+}
+#foto-robo img{
+    margin-top: 10px;
+    width: 70%;
+    height: 40vh;
+}
+
+#foto-robo input {
+    margin-top: 10px;
+    width: 15%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+
+
 
 footer {
     display: flex;
@@ -138,4 +219,14 @@ footer {
     background-size: cover;
     width: 200px;
     height: 100px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
 }
